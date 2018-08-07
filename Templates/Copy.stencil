@@ -1,4 +1,4 @@
-{% for type in types.all.implementing.AutoCopy %}
+{% for type in types.all|annotated:"AutoCopy" %}
 // MARK: - {{ type.name }} copy
 extension {{ type.name }} {
     func copy({% for field in type.storedVariables %}{{ field.name }} : {{ field.typeName }}? = nil{% ifnot forloop.last %}, {% endif %}{% endfor %}) -> {{ type.name }}{

@@ -11,7 +11,6 @@
 		110345112119BE65008CE12F /* AutoCopyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110345102119BE65008CE12F /* AutoCopyTests.swift */; };
 		110345132119BE65008CE12F /* AutoCopy.h in Headers */ = {isa = PBXBuildFile; fileRef = 110345052119BE65008CE12F /* AutoCopy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		110345212119BECA008CE12F /* Copy.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 110345202119BECA008CE12F /* Copy.stencil */; };
-		110345232119BF01008CE12F /* AutoCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110345222119BF01008CE12F /* AutoCopy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +31,6 @@
 		110345102119BE65008CE12F /* AutoCopyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCopyTests.swift; sourceTree = "<group>"; };
 		110345122119BE65008CE12F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		110345202119BECA008CE12F /* Copy.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; path = Copy.stencil; sourceTree = "<group>"; };
-		110345222119BF01008CE12F /* AutoCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCopy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +76,6 @@
 			children = (
 				110345252119C505008CE12F /* Generated */,
 				110345052119BE65008CE12F /* AutoCopy.h */,
-				110345222119BF01008CE12F /* AutoCopy.swift */,
 				110345062119BE65008CE12F /* Info.plist */,
 			);
 			path = AutoCopy;
@@ -235,7 +232,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				110345232119BF01008CE12F /* AutoCopy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +430,6 @@
 		1103451A2119BE65008CE12F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3XDGGMVZ86;
 				INFOPLIST_FILE = AutoCopyTests/Info.plist;
@@ -453,7 +448,6 @@
 		1103451B2119BE65008CE12F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3XDGGMVZ86;
 				INFOPLIST_FILE = AutoCopyTests/Info.plist;
