@@ -1,0 +1,5 @@
+sources:
+  - AutoCopy
+templates:
+  - Templates
+output: AutoCopy/Generated
