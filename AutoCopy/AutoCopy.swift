@@ -1,3 +1,3 @@
 import Foundation
 
-protocol AutoCopy {}
+public protocol AutoCopy {}
